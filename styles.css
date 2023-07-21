@@ -1,0 +1,7 @@
+body {
+    background-image: url('your-cool-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Add a suitable text color for better readability on the background */
+}
