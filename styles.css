@@ -57,10 +57,11 @@ body {
     padding: 10px;
   }
   
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
 .banner {
   background-image: url("asset/photos/book_cover.jpg");
