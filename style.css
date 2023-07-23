@@ -1,70 +1,37 @@
 /* Global Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url('asset/photos/book_cover.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #333;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0056b3;
-}
+/* ... (existing styles) */
 
 /* Header and Navigation */
 header {
-  background-color: #333;
-  padding: 10px;
+  position: relative;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.banner {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px 0;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: white;
-}
-
-nav ul li a:hover {
-  color: #ccc;
+.banner img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Homepage */
-.hero {
+/* ... (existing styles) */
+
+/* Picture Gallery */
+.picture-gallery {
   text-align: center;
-  padding: 100px 0;
-  color: #fff;
-  background-color: #007bff;
+  padding: 50px 0;
 }
 
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
+.picture {
+  display: inline-block;
+  margin: 10px;
 }
 
-.hero h2 {
-  font-size: 24px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #f8f8f8;
-  color: #777;
+.picture img {
+  max-width: 100%;
+  height: auto;
 }
