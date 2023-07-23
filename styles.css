@@ -63,7 +63,7 @@ body {
 }
 
 .banner {
-  background-image: url("cover_book.jpg");
+  background-image: url("book_cover.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
