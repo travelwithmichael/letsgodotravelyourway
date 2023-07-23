@@ -1,117 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .banner {
-    background-image: url("space_banner.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: white;
-    padding: 100px 0;
-  }
-  
-  .banner img {
-    max-width: 200px;
-    display: block;
-    margin: 0 auto 20px;
-  }
-  
-  nav {
-    background-color: #333;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  section {
-    padding: 50px;
-  }
-  
-  h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-.banner {
-  background-image: url("asset/photos/book_cover.jpg");
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('asset/photos/book_cover.jpg');
   background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
-  padding: 100px 0;
-}
-
-.banner img {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Add other CSS styles to make your website attractive */
 }
 
 nav {
   background-color: #333;
+  padding: 10px;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
+  padding: 0;
 }
 
-nav li {
-  margin: 0 10px;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-nav li a {
+nav ul li a {
+  color: white;
   text-decoration: none;
-  color: white;
 }
 
-section {
-  padding: 50px;
-}
-
-h2 {
-  color: #333;
-  border-bottom: 2px solid #333;
-  padding-bottom: 10px;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+nav ul li a:hover {
+  color: #ccc;
 }
