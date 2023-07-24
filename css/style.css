@@ -1,5 +1,3 @@
-/* Add general styling for your website here */
-/* Make sure to create responsive styles for different screen sizes */
 /* Reset default margins and paddings */
 body, h1, h2, h3, p {
   margin: 0;
@@ -40,6 +38,8 @@ section {
 nav {
   background-color: #333;
   padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
@@ -79,40 +79,10 @@ nav a:hover {
   border-radius: 4px;
 }
 
-/* Style the temporary popup */
-.popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  display: none;
-}
-
-.popup h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.popup p {
-  margin-bottom: 20px;
-}
-
-.popup a {
-  display: inline-block;
-  background-color: #007bff;
+/* Footer styles (customize as needed) */
+footer {
+  background-color: #333;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.popup-close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
+  padding: 10px 0;
+  text-align: center;
 }

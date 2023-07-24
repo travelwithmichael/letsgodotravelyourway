@@ -11,16 +11,17 @@
 
 <body>
     <!-- Temporary Popup (modify content accordingly) -->
-    <div class="popup">
-        <span class="popup-close-btn">&times;</span>
-        <h2>Book Sale!</h2>
-        <p>Get 20% off on your purchase for a limited time.</p>
-        <a href="#">Buy Now</a>
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close-btn">&times;</span>
+            <h2>Book Sale!</h2>
+            <p>Get 20% off on your purchase for a limited time.</p>
+            <a href="#">Buy Now</a>
+        </div>
     </div>
 
     <!-- Navigation Bar -->
     <nav>
-      <div class="container">
         <a href="#about">About</a>
         <a href="#books">Books/Works</a>
         <a href="#blog">Blog/Articles</a>
@@ -29,17 +30,18 @@
         <a href="#faqs">FAQs</a>
         <a href="#events-news">Events/News</a>
         <a href="#book-clubs">Book Clubs/Reading Guides</a>
-        <!-- Add navigation links to the sections you create -->
     </nav>
 
     <!-- Hero Banner -->
     <section class="hero">
-        <!-- ... (existing code) ... -->
+        <img src="images/hero_banner.jpg" alt="The Adventures of the Fearless Traveler">
+        <a class="cta-button" href="#purchase-links">Buy Now</a>
     </section>
 
     <!-- Book Cover and Title -->
     <section class="book-cover">
-        <!-- ... (existing code) ... -->
+        <img src="images/book_cover.jpg" alt="Book Cover">
+        <h1>The Adventures of the Fearless Traveler</h1>
     </section>
 
     <!-- Author Introduction -->
@@ -63,7 +65,7 @@
     </section>
 
     <!-- Purchase Links -->
-    <section class="purchase-links">
+    <section class="purchase-links" id="purchase-links">
         <!-- Add purchase links content here -->
     </section>
 
@@ -87,7 +89,7 @@
         <!-- Add footer content here (links to personal website and blog) -->
     </footer>
 
-    <!-- JavaScript for Popup functionality (modify if needed) -->
+    <!-- JavaScript for Popup functionality -->
     <script src="js/popup.js"></script>
 </body>
 
